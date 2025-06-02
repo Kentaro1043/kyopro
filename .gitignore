@@ -1,7 +1,9 @@
 *
 !.gitignore
+!.vscode/
 
 # Part of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
