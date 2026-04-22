@@ -1,5 +1,7 @@
 *
+!main.cpp
 !.gitignore
+!.clang-format
 !.vscode/
 
 # Part of https://www.toptal.com/developers/gitignore/api/visualstudiocode

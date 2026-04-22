@@ -3,12 +3,13 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "lldb debug",
-      "type": "lldb",
+      "name": "LLDB Debug",
+      "type": "lldb-dap",
       "request": "launch",
       "program": "${fileDirname}/a.out",
       "args": [],
       "cwd": "${fileDirname}",
+      "console": "integratedTerminal",
       "preLaunchTask": "g++ build"
     }
   ]
