@@ -8,6 +8,7 @@
       "args": [
         "-fdiagnostics-color=always",
         "-g",
+        "-O0",
         "-Wall",
         "-Wextra",
         "-std=c++23",
@@ -22,7 +23,8 @@
         "kind": "build",
         "isDefault": true
       },
-      "detail": "Build C++ file with g++"
+      "problemMatcher": "$gcc",
+      "detail": "Build C++ file with g++ from the Nix devShell"
     }
   ]
 }

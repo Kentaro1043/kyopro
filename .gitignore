@@ -2,6 +2,8 @@
 !main.cpp
 !.gitignore
 !.clang-format
+!flake.nix
+!flake.lock
 !.vscode/
 
 # Part of https://www.toptal.com/developers/gitignore/api/visualstudiocode

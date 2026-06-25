@@ -1,8 +1,4 @@
 {
-  "code-runner.runInTerminal": true,
-  "code-runner.ignoreSelection": true,
-  "code-runner.executorMap": {
-    "cpp": "cd $dir && g++ -g -Wall -Wextra -std=c++23 $fileName -o a.out && oj test --gnu-time time"
-  },
+  "clangd.path": "clangd",
   "continue.enableTabAutocomplete": false
 }
